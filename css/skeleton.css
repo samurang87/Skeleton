@@ -7,6 +7,19 @@
 * 12/29/2014
 */
 
+/* Colour palette
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* 
+off white: #f5e5e8
+brown: #73533f
+black: #140f13
+green-ish: #48a08f
+light pink: #eab9b5
+*/
+
+/* Fonts: https://www.google.com/fonts#UsePlace:use/Collection:Lora:400,700 */
+
+
 
 /* Table of contents
 ––––––––––––––––––––––––––––––––––––––––––––––––––
@@ -124,7 +137,7 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lora", serif;
   color: #222; }
 
 
