@@ -10,6 +10,13 @@ light pink: #eab9b5
 
 /* Fonts: https://www.google.com/fonts#UsePlace:use/Collection:Lora:400,700 */
 
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+  color: #48a08f; }
+a:hover {
+  color: #eab9b5; }
+
 
 /* Shared
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -34,11 +41,16 @@ light pink: #eab9b5
 .hero {
   background-color: #fcf7f8;
   color: #48a08f;
+  vertical-align:middle;
+  text-align: right;
 }
 
 .profilepic {
   max-width: 100%;
-  /*margin: auto ;*/
+  vertical-align:middle;
+  margin:auto;
+  text-align:left;
+  padding: 4rem 5rem 0rem;
 }
 
 /* Values
@@ -73,7 +85,17 @@ light pink: #eab9b5
 /* Skeleton
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .get-Skeleton {
+  background-color: #fcf7f8;
+  color: #48a08f;
+}
 
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.footer {
+  background-color: #fcf7f8;
+  color: #48a08f;
+  padding: 3rem 0 3rem;
+  text-align:center;
 }
 
 /* Categories
@@ -94,7 +116,7 @@ light pink: #eab9b5
   }
   .hero {
     padding-bottom: 12rem;
-    text-align: left;
+    text-align: right;
     height: 165px;
   }
   .profilepic {
